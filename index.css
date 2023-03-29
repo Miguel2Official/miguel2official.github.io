@@ -1,0 +1,301 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+}
+
+h1{ font-size: 6.5em;}
+h2{ font-size: 2.7em;}
+h3{ font-size: 2em;}
+p{ font-size: 1.25em;}
+ul{ list-style: none;}
+li{ font-size: 2.25em;
+    color: #14f15e;
+}
+
+button{
+    font-size: 1.25em;
+    font-weight: bold;
+    padding: 10px 30px;
+    border-radius: 5px;
+    border: 2px solid rgba(0,0,0,0.3);
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.5);
+    color: white;
+    background-color: RGB(12, 180, 96);
+}
+
+button:hover{
+    
+    background-color: rgb(8, 39, 23);
+}
+#android {
+    display: flex;
+    background-color: rgb(80, 78, 77);
+}
+
+.container{
+    max-width: 1400px;
+    margin: auto;
+}
+
+.color-acento{ color: green; }
+
+header{
+    background-color: rgb(245,245,245);
+    
+}
+
+header .logo{
+    margin: 0;
+    padding: 25px 30px;
+    font-weight: bold;
+    color: rgb(12, 180, 96);
+    font-size: 1.6em;
+}
+
+header .container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header nav{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+header a{
+    padding: 5px 12px;
+    text-decoration: none;
+    font-weight: bold;
+    color: black;
+}
+
+header a:hover{
+    color: rgb(20, 184, 20);
+}
+
+.cuerpo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    height: 90vh;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://videojuegos.roams.es/images/post/es_ES_videogames/juegos.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.cuerpo h1{
+    color: white;
+}
+
+.cuerpo button{
+    font-size: 1.75em;
+}
+.cuerpo p{
+    color: white;
+}
+
+
+
+#android h2{
+    color: brown;
+}
+.texto p{
+    color: #f7f4f4;
+}
+
+#juegos{
+    display: flex;
+    background-color: rgb(30,30,30);
+    color: rgb(243, 240, 240);
+    text-align: center;
+}
+
+#juegos .container{
+    padding: 150px 12px;
+}
+
+#juegos h2{
+    margin-top: 0;
+    font-size: 3.2em;
+}
+
+#juegos p{
+    display: flex;
+}
+
+
+
+ .circulo1{
+    height: 450px ;
+    width: 450px;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://preview.redd.it/zfevzko64m851.png?auto=webp&s=326a086a42f627a10d95096276f07cdeb8dbe078);
+
+}
+
+
+ .circulo2{
+    height: 450px ;
+    width: 450px;
+    background-size: cover;
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://www.impulsegamer.com/iphones/nova3-3.jpg);
+
+}
+.carta1 button{
+    margin: 55px;
+}
+.carta2 button{
+    margin: 15px;
+
+}
+.carta3 button{
+    margin: 30px;
+}
+
+.circulo3{
+    height: 450px ;
+    width: 450px;
+    
+    background-size: cover;
+    
+    padding: 50px 0px;
+    margin: 30px;
+    border-radius: 50%;
+    background-position: center;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    )
+    ,url(https://i.ytimg.com/vi/l2cPFiPeQbA/maxresdefault.jpg);
+
+}
+
+
+#caracteristicas{
+    
+    
+    
+    padding: 10px 0px;
+    background-image: linear-gradient(
+        0deg,
+        rgba(0,0,0,0.5),
+        rgba(0,0,0,0.5)
+    ),url(https://www.softzone.es/app/uploads-softzone.es/2021/07/Fondo-Windows-11-colores.jpg);
+}
+
+
+#caracteristicas li{
+
+    margin: 16px 0px;
+    font-weight: bold;
+}
+
+.acabado{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: rgb(30,30,30);
+    color: white;
+    height: 80vh;
+}
+
+
+
+footer{
+    background-color: rgb(17, 14, 14);
+}
+
+footer p{
+    margin: 0;
+    padding: 12px;
+    color: rgb(100,100,100);
+}
+
+footer .container{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+@media (min-width: 850px){
+    header{
+        position: fixed;
+        width: 100%;
+    }
+
+    header .container{
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    header nav{
+        flex-direction: row;
+        padding-bottom: 0;
+        padding-right: 20px;
+    }
+
+   
+
+    #caracteristicas container{
+        text-align: initial;
+    }
+
+    #caracteristicas ul{
+        margin-left: 100px;
+    }
+
+    .acabado h2{
+        font-size: 5em;
+    }
+
+    footer .container{
+        justify-content: flex-start;
+    }
+}
+
+@media (min-width: 1200px) {
+    #caracteristicas{
+        background-position-x: calc(100vw - 800px);
+    }
+}
